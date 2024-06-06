@@ -13,7 +13,6 @@ set showcmd
 exec "nohlsearch"
 
 inoremap jk <Esc>
-map      W  :w<CR>
 map      J  5j
 map      K  5k
 noremap  <LEADER><CR> :nohlsearch<CR>

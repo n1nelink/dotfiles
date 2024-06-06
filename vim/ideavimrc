@@ -16,7 +16,7 @@ nnoremap H gT
 nnoremap L gt
 
 "
-nnoremap <Leader>c :nohlsearch<CR>
+nnoremap <Leader><CR> :nohlsearch<CR>
 
 " ============================
 " INSERT MODE
