@@ -41,6 +41,8 @@
 
     /* NextEcho Custom Variable */
     --h1-text-color: #ff7b72;
+    --codeline-text-color: #b3f5b3;
+    --codeline-bg-color: #212228;
 }
 
 .pane-group {
@@ -472,7 +474,7 @@ code {
     padding: .18rem .4rem .18rem;
     margin: 0;
     font-size: 1.05rem;
-    background-color: #8b4dff;
+    background-color: var(--codeline-bg-color);
     border-radius: 6px;
     font-family: "NotoSansM Nerd Font", ui-monospace,
         Menlo, Monaco,
@@ -486,7 +488,7 @@ code {
         "Courier New", monospace;
     font-weight: 500;
     line-height: 1.5;
-    color: white;
+    color: var(--codeline-text-color);
 }
 
 .md-fences {
