@@ -5,7 +5,7 @@ return {
 		opts.open_files_do_not_replace_types = opts.open_files_do_not_replace_types
 			or { "terminal", "Trouble", "qf", "Outline", "trouble" }
 		opts.window = {
-			width = 30,
+			width = 35,
 		}
 		table.insert(opts.open_files_do_not_replace_types, "edgy")
 	end,

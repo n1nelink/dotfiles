@@ -7,7 +7,5 @@ opt.tabstop = 4
 opt.shiftwidth = 4
 opt.relativenumber = true
 
-vim.o.guifont = "JetBrainsMono Nerd Font:h13"
--- vim.o.guifont = "FiraCode Nerd Font:h11"
--- vim.o.guifont = "SFMono Nerd Font Mono:h13"
--- vim.o.guifont = "NotoSansM Nerd Font:h13"
+-- vim.o.guifont = "NotoSansM Nerd Font:h14"
+vim.o.guifont = "Iosevka Nerd Font"
