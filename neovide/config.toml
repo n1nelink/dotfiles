@@ -1,14 +1,14 @@
 [font]
-normal = ["MonaspiceNe Nerd Font"]
+normal = ["JetBrainsMono Nerd Font"]
 size = 14
 
 [[font.bold]]
-family = "MonaspiceNe Nerd Font"
-style = "w500"
+family = "JetBrainsMono Nerd Font"
+style = "w400"
 
 [font.features]
-"MonaspiceNe Nerd Font" = [
-    "-calt",
+"JetBrainsMono Nerd Font" = [
+    "+calt",
     "+ss01",
     "+ss02",
     "+ss03",
@@ -18,5 +18,4 @@ style = "w500"
     "+ss07",
     "+ss08",
     "+ss09",
-    "liga",
 ]
