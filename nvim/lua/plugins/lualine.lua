@@ -83,7 +83,9 @@ return {
 	event = "VeryLazy",
 	opts = function(_, opts)
 		opts.options = {
-			section_separators = { left = "", right = "" },
+			theme = "catppuccin",
+			-- section_separators = { left = "", right = "" },
+			section_separators = { left = "█", right = "" },
 			component_separators = { left = "", right = "" },
 		}
 		opts.sections.lualine_a = {

@@ -59,15 +59,16 @@ return {
 	"catppuccin/nvim",
 	lazy = true,
 	name = "catppuccin",
+	priority = 1000,
 	opts = {
-		style = "mocha",
+		flavour = "mocha",
 		background = {
 			dark = "mocha",
 			light = "latte",
 		},
 		styles = {
 			comments = { "italic" }, -- Change the style of comments
-			conditionals = { "italic" },
+			conditionals = {},
 			loops = {},
 			functions = {},
 			keywords = {},
@@ -80,7 +81,7 @@ return {
 			operators = {},
 		},
 		transparent_background = false,
-		term_colors = false,
+		term_colors = true,
 		integrations = {
 			aerial = true,
 			alpha = true,
