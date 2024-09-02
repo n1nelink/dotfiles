@@ -1,6 +1,6 @@
 # Config File Repository
 
-## powerShell
+## powershell
 
 ## startship
 
@@ -23,3 +23,5 @@
 ## waybar
 
 ## zsh
+
+## tmux
