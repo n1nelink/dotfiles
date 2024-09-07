@@ -78,13 +78,25 @@ local function pretty_path(opts)
 	end
 end
 
+local function custom_theme()
+	local theme = require("lualine.themes.auto")
+
+	theme.normal.a.bg = "#EBA0AC"
+	theme.normal.z.bg = "#EBA0AC"
+
+	theme.insert.a.bg = "#a3d051"
+
+	return theme
+end
+
 return {
 	"nvim-lualine/lualine.nvim",
 	event = "VeryLazy",
 	opts = function(_, opts)
 		opts.options = {
-			theme = "catppuccin",
 			-- section_separators = { left = "", right = "" },
+			-- change lualine colorschemes
+			theme = custom_theme(),
 			section_separators = { left = "█", right = "" },
 			component_separators = { left = "", right = "" },
 		}
@@ -109,6 +121,7 @@ return {
 				padding = { left = 0, right = 1 },
 			},
 		}
+
 		return opts
 	end,
 }
