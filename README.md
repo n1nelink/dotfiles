@@ -1,5 +1,3 @@
-# Config File Repository
-
 ## powershell
 
 ## startship
@@ -12,11 +10,11 @@
 
 ## neofetch
 
+## neovide
+
 ## nvim
 
 ## vim
-
-## typora theme
 
 ## vivaldi
 
