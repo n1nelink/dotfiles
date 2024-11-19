@@ -16,8 +16,6 @@
 
 ## vim
 
-## vivaldi
-
 ## waybar
 
 ## zsh
